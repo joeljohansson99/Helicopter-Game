@@ -35,6 +35,11 @@ class Game
         void handleEvents();
         void cleanupPlay();
         int gameOver();
+        // MENu
+        void getHighscore();
+        void checkHighscore();
+        int displayHighscore(SDL_Event *event);
+        void credits();
     private:
         SDL_Window* window;
         SDL_Renderer* renderer;
@@ -45,6 +50,11 @@ class Game
         SDL_Rect rectText;
         TTF_Font* font;
         SDL_Color fontColor;
+
+        SDL_Surface* scoreSurface;
+        SDL_Texture *hsInput;
+        SDL_Rect rectHsInput;
+        SDL_Color highscoreColor;
 
         bool running =true;
 
@@ -76,6 +86,12 @@ class Game
 
         SDL_Texture *game_over;
         SDL_Rect rectGameover;
+
+        SDL_Texture *highScore;
+        SDL_Rect rectHighscore;
+
+        SDL_Texture *credit;
+        SDL_Rect rectCredit;
 
 
 };

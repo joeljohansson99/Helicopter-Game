@@ -5,6 +5,7 @@
 #include <SDL2/SDL_image.h>
 #include <SDL2/SDL_ttf.h>
 #include <string>
+#include <fstream>
 
 using namespace std;
 
@@ -27,11 +28,19 @@ void Game::getContentMove() {
     SDL_QueryTexture(heli, NULL, NULL, &w, &h);
     rectHeli.x = 250; rectHeli.y = y; rectHeli.w = w; rectHeli.h = h;
 
-    string score = "SCORE: " + to_string(points);
+    string prev;
+    ifstream ifs("score.txt");
+
+    while(!ifs.eof())
+    {
+        getline(ifs,prev);;
+    }
+
+    string score = "SCORE: " + to_string(points) + "    HIGHSCORE: " + prev;
 
     textSurface = TTF_RenderText_Solid(font,score.c_str(), fontColor);
     text = SDL_CreateTextureFromSurface(renderer, textSurface);
     SDL_QueryTexture(text, NULL, NULL, &w, &h);
-    rectText.x = WIDTH/2 -70; rectText.y = 0; rectText.w = w; rectText.h = h;
+    rectText.x = WIDTH/2 -160; rectText.y = 0; rectText.w = w; rectText.h = h;
 }
 

@@ -10,6 +10,7 @@ using namespace std;
 Game::Game(): window(NULL), menu(NULL)
 {
     fontColor = {8,108,65};
+    highscoreColor = {200, 235, 0};
     getMenu(&event);
 }
 
@@ -28,6 +29,6 @@ void Game::handleEvents()
     }
     else
     {
-       y+=3;
+       y+=6;
     }
 }

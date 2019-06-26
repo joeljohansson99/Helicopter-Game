@@ -36,18 +36,18 @@ int Game::getProgram()
 
     while (true)
     {
-        Sleep(8);
+        Sleep(15);
         if(y<0){
-            y+=4;
+            y+=8;
         }
         if(y>HEIGHT-53){
-            y-=3;
+            y-=6;
         }
 
         handleEvents();
-        x1-=5;
-        x2-=5;
-        x3-=5;
+        x1-=10;
+        x2-=10;
+        x3-=10;
         if (x2<-34){x2=WIDTH; randomY2 = rand()%534; points++;}
         if (x1<-34){x1=WIDTH; randomY1 = rand()%534; points++;}
         if (x3<-34){x3=WIDTH; randomY3 = rand()%534; points++;}
@@ -60,12 +60,12 @@ int Game::getProgram()
             break;
         }
     }
-
     cleanupPlay();
+
+    checkHighscore();
 
     if (gameOver()==-1){
         return -1;
-
     }
 
     getMenu(&event);

@@ -5,19 +5,19 @@
 	<SDL2/SDL.h>
 	<SDL2/SDL_image.h>
 
-1561069726 source:c:\users\joel\documents\c++ course\helicopter game\src\game.cpp
+1561493157 source:c:\users\joel\documents\c++ course\helicopter game\src\game.cpp
 	"Game.h"
 	<iostream>
 	<SDL2/SDL.h>
 	<SDL2/SDL_image.h>
 	<SDL2/SDL_ttf.h>
 
-1561069542 c:\users\joel\documents\c++ course\helicopter game\include\game.h
+1561539355 c:\users\joel\documents\c++ course\helicopter game\include\game.h
 	<iostream>
 	<SDL2/SDL.h>
 	<SDL2/SDL_ttf.h>
 
-1561067037 source:c:\users\joel\documents\c++ course\helicopter game\init.cpp
+1561071320 source:c:\users\joel\documents\c++ course\helicopter game\init.cpp
 	"Game.h"
 	<iostream>
 	<SDL2/SDL.h>
@@ -42,13 +42,13 @@
 	<SDL2/SDL.h>
 	<SDL2/SDL_image.h>
 
-1560954872 source:c:\users\joel\documents\c++ course\helicopter game\getmenu.cpp
+1561539477 source:c:\users\joel\documents\c++ course\helicopter game\getmenu.cpp
 	"Game.h"
 	<iostream>
 	<SDL2/SDL.h>
 	<SDL2/SDL_image.h>
 
-1561069750 source:c:\users\joel\documents\c++ course\helicopter game\getprogram.cpp
+1561491234 source:c:\users\joel\documents\c++ course\helicopter game\getprogram.cpp
 	"Game.h"
 	<iostream>
 	<SDL2/SDL.h>
@@ -71,7 +71,7 @@
 	<SDL2/SDL.h>
 	<SDL2/SDL_image.h>
 
-1561069726 source:c:\users\joel\documents\c++ course\helicopter game\getkey.cpp
+1561323254 source:c:\users\joel\documents\c++ course\helicopter game\getkey.cpp
 	"Game.h"
 	<iostream>
 	<SDL2/SDL.h>
@@ -86,13 +86,14 @@
 	<string>
 	<SDL2/SDL_ttf.h>
 
-1561068844 source:c:\users\joel\documents\c++ course\helicopter game\getcontentmove.cpp
+1561493999 source:c:\users\joel\documents\c++ course\helicopter game\getcontentmove.cpp
 	"Game.h"
 	<iostream>
 	<SDL2/SDL.h>
 	<SDL2/SDL_image.h>
 	<SDL2/SDL_ttf.h>
 	<string>
+	<fstream>
 
 1561067141 source:c:\users\joel\documents\c++ course\helicopter game\cleanupplay.cpp
 	"Game.h"
@@ -116,4 +117,41 @@
 	<conio.h>
 	<windows.h>
 	<SDL2/SDL_ttf.h>
+
+1561491639 source:c:\users\joel\documents\c++ course\helicopter game\gethighscore.cpp
+	"Game.h"
+	<iostream>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<windows.h>
+	<stdlib.h>
+	<time.h>
+	<SDL2/SDL_ttf.h>
+	<fstream>
+	<string>
+	<sstream>
+
+1561493619 source:c:\users\joel\documents\c++ course\helicopter game\displayhighscore.cpp
+	"Game.h"
+	<iostream>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<windows.h>
+	<stdlib.h>
+	<time.h>
+	<SDL2/SDL_ttf.h>
+	<fstream>
+	<string>
+
+1561539523 source:c:\users\joel\documents\c++ course\helicopter game\credits.cpp
+	"Game.h"
+	<iostream>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<windows.h>
+	<stdlib.h>
+	<time.h>
+	<SDL2/SDL_ttf.h>
+	<fstream>
+	<string>
 

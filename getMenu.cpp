@@ -41,7 +41,16 @@ int Game::getMenu(SDL_Event *event)
                 {
                     getProgram();
                     break;
-
+                }
+                else if (mouseX > 1000 && mouseX < 1275 && mouseY > 284 && mouseY < 366)
+                {
+                    displayHighscore(event);
+                    break;
+                }
+                else if (mouseX > 1022 && mouseX < 1215 && mouseY > 447 && mouseY < 510)
+                {
+                    credits();
+                    break;
                 }
             }
         }

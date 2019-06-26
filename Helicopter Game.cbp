@@ -37,10 +37,13 @@
 		<Unit filename="checkLoss.cpp" />
 		<Unit filename="cleanup.cpp" />
 		<Unit filename="cleanupPlay.cpp" />
+		<Unit filename="credits.cpp" />
+		<Unit filename="displayHighscore.cpp" />
 		<Unit filename="gameOver.cpp" />
 		<Unit filename="getContent.cpp" />
 		<Unit filename="getContentMove.cpp" />
 		<Unit filename="getContentPlay.cpp" />
+		<Unit filename="getHighscore.cpp" />
 		<Unit filename="getKey.cpp" />
 		<Unit filename="getMenu.cpp" />
 		<Unit filename="getProgram.cpp" />

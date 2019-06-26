@@ -11,7 +11,7 @@ void Game::getKey(SDL_Event *event){
     switch(event->key.keysym.sym)
     {
     case SDLK_UP:
-        y-=4;
+        y-=8;
         break;
     }
 }
